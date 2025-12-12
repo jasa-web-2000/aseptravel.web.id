@@ -3,6 +3,7 @@
 // $domain = 'http://localhost/altranstravel.web.id/';
 $domain = 'https://altranstravel.web.id/';
 $brand = 'AL Trans Travel';
+$logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
 $title = $brand . " Pangandaran, Ciamis, Tasik, Garut, Bandung & Jabodetabek";
@@ -191,7 +192,7 @@ $harga = [
   <meta property="og:description" content="<?= $desc ?>" />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="<?= $domain ?>" />
-  <meta property="og:image" content="<?= $domain . $logo ?>" />
+  <meta property="og:image" content="<?= $domain . ($logoShared ?? $logo) ?>" />
 
   <link rel="apple-touch-icon" href="<?= $domain . $logo ?>" />
   <link rel="icon" size="16x16" href="<?= $domain . $logo ?>" />
