@@ -1,7 +1,7 @@
 <?php
 
-// $domain = 'http://localhost/altranstravel.web.id/';
-$domain = 'https://altranstravel.web.id/';
+$domain = 'http://localhost/altranstravel.web.id/';
+// $domain = 'https://altranstravel.web.id/';
 $brand = 'AL Trans Travel';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
@@ -141,6 +141,12 @@ $galeri = [
   '4.jpg',
   '5.jpg',
   '6.jpg',
+];
+
+$harga = [
+  '3.jpeg',
+  '1.jpeg',
+  '2.jpeg',
 ];
 
 ?>
@@ -501,6 +507,34 @@ $galeri = [
       </div>
     </section>
     <!-- Hero Section -->
+
+    <!-- Rute Travel -->
+    <section class="container my-20" id="harga-travel">
+      <div class="">
+        <div class="text-center inner-container">
+          <h2 class="line-h2">Harga Travel dari <?= $brand ?></h2>
+          <p class="desc">
+            Tersedia travel reguler dengan harga murah dan terjangkau.
+          </p>
+        </div>
+        <div
+          class="grid grid-cols-6 gap-x-6 gap-y-10 [&>*]:col-span-full [&>*]:sm:col-span-2 [&>*]:border [&>*]:relative [&>*]:min-h-96 md:[&>*]:min-h-80 [&>*]:rounded-xl [&>*]:shadow-xl [&>*]:cursor-pointer [&>*]:overflow-hidden [&_img]:w-full [&_img]:h-full [&_img]:scale-100 [&_img]:transition-all [&_img]:duration-500 [&>div>div]:z-10 [&>div>div]:relative [&>div>div]:p-5 [&>div>div]:text-center [&>div>div]:flex-col [&>div>div]:flex [&>div>div]:justify-between [&>div>div]:h-full [&_h3]:text-slate-50 [&_a]:col-span-full [&_a]:px-5 [&_a]:py-2 [&_a]:border-2 [&_a]:border-primary hover:[&_a]:border-primary-hover [&_a]:bg-primary hover:[&_a]:bg-primary-hover [&_a]:text-slate-200 [&_a]:rounded-lg [&_a]:transition-all [&_a]:relative">
+          <?php if (count($harga) > 0) : ?>
+            <?php foreach ($harga as $item) : ?>
+              <div class="group">
+                <img
+                  src="<?= $domain . 'src/img/harga/' . $item ?>"
+                  class="group-hover:scale-125"
+                  loading="lazy"
+                  alt="<?= $item[0] ?>" />
+              </div>
+            <?php endforeach; ?>
+          <?php endif; ?>
+        </div>
+
+      </div>
+    </section>
+    <!-- Rute Travel -->
 
     <!-- Rute Travel -->
     <section class="container my-20" id="rute-travel">
