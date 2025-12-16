@@ -2,7 +2,7 @@
 
 // $domain = 'http://localhost/altranstravel.web.id/';
 $domain = 'https://altranstravel.web.id/';
-$brand = 'AL Trans Travel';
+$brand = 'AL Trans Travel Grup';
 $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.jpg';
 $logoPanjang = 'src/img/logo.jpg';
