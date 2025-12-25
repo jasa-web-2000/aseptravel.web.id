@@ -1,19 +1,19 @@
 <?php
 
-$domain = 'http://192.168.1.4/bandhawatravel.web.id/';
-// $domain = 'https://bandhawatravel.web.id/';
-$brand = 'Mazia Trans Travel';
+// $domain = 'http://192.168.1.4/bandhawatravel.web.id/';
+$domain = 'https://bandhawatravel.web.id/';
+$brand = 'Bandhawa travel';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.png';
 $logoPanjang = 'src/img/logo.png';
-$title = $brand . " Banjar, Ciamis, Tasik, Bandung, Jabodetabek & Bandara";
-$desc = $brand . " menawarkan jasa travel antar kota dengan rute Banjar, Ciamis, Tasikmalaya, Bandung, Jabodetabek & Bandara. Harga murah, pelayanan terbaik, via tol, 24 jam, dan door to door!";
-$telp = '0857-2360-1196';
+$title = $brand . " Rute Cianjur, Sukabumi, Jabodetabek & Bandara";
+$desc = $brand . " adalah layanan jasa transportasi travel terbaik yang melayani rute Cianjur, Sukabumi, Jabodetabek & Bandara dengan sistem door to door. Pesan sekarang untuk pengalaman perjalanan yang nyaman dan aman.";
+$telp = '0822-9814-3930';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Jl. Raya Cieurih, RT.04/RW.04, Cieurih, Kec. Cipaku, Kabupaten Ciamis, Jawa Barat 26252';
+$alamat = 'Perumahan Bumi Tirta Nirwana, Blok L3 No. 6, Gekbrong, Kabupaten Cianjur, Jawa Barat';
 
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3958.1875618810896!2d108.35952177499937!3d-7.219434992786437!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zN8KwMTMnMTAuMCJTIDEwOMKwMjEnNDMuNiJF!5e0!3m2!1sen!2sid!4v1766389621392!5m2!1sen!2sid';
+$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3961.290862472142!2d107.02608357499594!3d-6.855698593142713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTEnMjAuNSJTIDEwN8KwMDEnNDMuMiJF!5e0!3m2!1sen!2sid!4v1766645189945!5m2!1sen!2sid';
 
 
 function res_telp($telp)
@@ -53,86 +53,44 @@ $menu = [
 
 
 $rute = [
-  "Travel Banjar Bandung",
-  "Travel Ciamis Bandung",
-  "Travel Tasik Bandung",
+  "Travel Cianjur Jakarta",
+  "Travel Cianjur Bandara",
+  "Travel Cianjur Bogor",
+  "Travel Cianjur Depok",
+  "Travel Cianjur Tangerang",
+  "Travel Cianjur Bekasi",
 
-  "Travel Banjar Jakarta",
-  "Travel Ciamis Jakarta",
-  "Travel Tasik Jakarta",
+  "Travel Sukabumi Jakarta",
+  "Travel Sukabumi Bandara",
+  "Travel Sukabumi Bogor",
+  "Travel Sukabumi Depok",
+  "Travel Sukabumi Tangerang",
+  "Travel Sukabumi Bekasi",
 
-  "Travel Banjar Bogor",
-  "Travel Ciamis Bogor",
-  "Travel Tasik Bogor",
+  "Travel Jakarta Cianjur",
+  "Travel Bandara Cianjur",
+  "Travel Bogor Cianjur",
+  "Travel Depok Cianjur",
+  "Travel Tangerang Cianjur",
+  "Travel Bekasi Cianjur",
 
-  "Travel Banjar Depok",
-  "Travel Ciamis Depok",
-  "Travel Tasik Depok",
+  "Travel Jakarta Sukabumi",
+  "Travel Bandara Sukabumi",
+  "Travel Bogor Sukabumi",
+  "Travel Depok Sukabumi",
+  "Travel Tangerang Sukabumi",
+  "Travel Bekasi Sukabumi",
 
-  "Travel Banjar Bekasi",
-  "Travel Ciamis Bekasi",
-  "Travel Tasik Bekasi",
-
-  "Travel Banjar Tangerang",
-  "Travel Ciamis Tangerang",
-  "Travel Tasik Tangerang",
-
-  "Travel Banjar Bandara",
-  "Travel Ciamis Bandara",
-  "Travel Tasik Bandara",
-
-
-  "Travel Bandung Jakarta",
-  "Travel Bandung Bogor",
-  "Travel Bandung Depok",
-  "Travel Bandung Bekasi",
-  "Travel Bandung Tangerang",
-  "Travel Bandung Bandara",
-
-
-  // PP
-
-  "Travel Bandung Banjar",
-  "Travel Bandung Ciamis",
-  "Travel Bandung Tasik",
-
-  "Travel Jakarta Banjar",
-  "Travel Jakarta Ciamis",
-  "Travel Jakarta Tasik",
-
-  "Travel Bogor Banjar",
-  "Travel Bogor Ciamis",
-  "Travel Bogor Tasik",
-
-  "Travel Depok Banjar",
-  "Travel Depok Ciamis",
-  "Travel Depok Tasik",
-
-  "Travel Bekasi Banjar",
-  "Travel Bekasi Ciamis",
-  "Travel Bekasi Tasik",
-
-  "Travel Tangerang Banjar",
-  "Travel Tangerang Ciamis",
-  "Travel Tangerang Tasik",
-
-  "Travel Bandara Banjar",
-  "Travel Bandara Ciamis",
-  "Travel Bandara Tasik",
-
-
-  "Travel Jakarta Bandung",
-  "Travel Bogor Bandung",
-  "Travel Depok Bandung",
-  "Travel Bekasi Bandung",
-  "Travel Tangerang Bandung",
-  "Travel Bandara Bandung",
 ];
 
 $kota = [
   [
-    'Ciamis',
-    'ciamis.jpg',
+    'Cianjur',
+    'cianjur.jpg',
+  ],
+  [
+    'Sukabumi',
+    'sukabumi.jpg',
   ],
   [
     'Jakarta',
@@ -141,10 +99,6 @@ $kota = [
   [
     'Depok',
     'depok.jpg',
-  ],
-  [
-    'Bandung',
-    'bandung.jpg',
   ],
 ];
 
@@ -186,10 +140,9 @@ $harga = [
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-TN687XK4');
+    })(window, document, 'script', 'dataLayer', 'GTM-M7F422L7');
   </script>
   <!-- End Google Tag Manager -->
-
   <meta name="author" content="Dion Zebua" />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -225,7 +178,7 @@ $harga = [
 
 <body class="font-poppins text-slate-700 overflow-x-hidden">
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TN687XK4"
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M7F422L7"
       height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
@@ -236,7 +189,7 @@ $harga = [
           <a href="<?= $domain ?>">
             <img
               src="<?= $domain . $logoPanjang ?>"
-              class="w-12 md:w-20 m-auto rounded"
+              class="w-12 md:w-16 m-auto rounded-full"
               alt="logo" />
           </a>
         </div>
@@ -630,11 +583,12 @@ $harga = [
             <div class="text inner-container">
               <h2 class="line-h2 left-12 text-slate-50 before:!bg-blue-300 after:!bg-blue-300">Tentang Kami</h2>
               <p class="desc !text-slate-300 !mb-5">
-                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-kabupaten-bandung-barat/ke-kabupaten-ciamis/3217/3207" class="underline" target="_blank">Travel Bandung Ciamis</a> pulang pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan ebebrapa layanan yang akan membantu anda seperti:
+                <?= $desc ?> Fokus pada rute <a href="https://jasatravel.web.id/rute-travel/dari-bogor-timur/ke-cianjur/327102/320301" class="underline" target="_blank">Travel Bogor Cianjur Murah</a> pergi, via tol, 24 ja, dan bonus makan sekali. Kami hadir sebagai solusi transportasi anda dengan ebebrapa layanan yang akan membantu anda seperti:
               </p>
               <ul class="!list-item !list-disc text-slate-300 ml-5">
                 <li>Carter Regular</li>
                 <li>Carter Drop</li>
+                <li>Sewa Mobil</li>
                 <li>Kirim Paket</li>
                 <li>Paket Wisata</li>
               </ul>
@@ -1243,15 +1197,3 @@ $harga = [
 </body>
 
 </html>
-
-Banjar Ciamis Tasik Ke Bandung 150
-
-Banjar Ciamis Tasik Jadetabek 250
-
-Banjar Ciamis Tasik Bogor 300
-
-Bandung Jabodetabek 250
-
-Bandung Bandara 250
-
-Banjar Ciamis Tasik Bandara 300
