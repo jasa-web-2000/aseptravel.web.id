@@ -1,11 +1,11 @@
 <?php
 
-// $domain = 'http://192.168.1.4/maziatranstravel.web.id/';
-$domain = 'https://maziatranstravel.web.id/';
+$domain = 'http://192.168.1.4/bandhawatravel.web.id/';
+// $domain = 'https://bandhawatravel.web.id/';
 $brand = 'Mazia Trans Travel';
-$logoShared = 'src/img/harga-travel.jpg';
-$logo = 'src/img/logo.jpg';
-$logoPanjang = 'src/img/logo.jpg';
+// $logoShared = 'src/img/harga-travel.jpg';
+$logo = 'src/img/logo.png';
+$logoPanjang = 'src/img/logo.png';
 $title = $brand . " Banjar, Ciamis, Tasik, Bandung, Jabodetabek & Bandara";
 $desc = $brand . " menawarkan jasa travel antar kota dengan rute Banjar, Ciamis, Tasikmalaya, Bandung, Jabodetabek & Bandara. Harga murah, pelayanan terbaik, via tol, 24 jam, dan door to door!";
 $telp = '0857-2360-1196';
@@ -236,7 +236,7 @@ $harga = [
           <a href="<?= $domain ?>">
             <img
               src="<?= $domain . $logoPanjang ?>"
-              class="w-14 md:w-20 m-auto rounded"
+              class="w-12 md:w-20 m-auto rounded"
               alt="logo" />
           </a>
         </div>
