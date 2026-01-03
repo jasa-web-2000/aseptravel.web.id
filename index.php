@@ -2,11 +2,11 @@
 
 // $domain = 'http://192.168.1.7/aseptravel.web.id/';
 $domain = 'https://aseptravel.web.id/';
-$brand = 'Asep Travel Cianjur - Jabodetabek';
+$brand = 'Asep Travel Cianjur - Jabodetabek (PP)';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.png';
 $logoPanjang = 'src/img/logo.png';
-$title = $brand . " menawarkan Travel Cianjur Jabodetabek";
+$title = $brand . " menawarkan Travel Cianjur Jabodetabek (PP)";
 $desc = $brand . " akan membantu anda melakukan perjalanan dengan rute travel Cianjur - Jakartam, Bogor, Depok, Tangerang, Bekasi, dan Bandara. ";
 $telp = '0821-2136-8710';
 // $telp2 = '0857-9190-4615';
@@ -544,9 +544,9 @@ $harga = [
                   class="" />
                 <div class="">
                   <h3 class="!line-clamp-1 block whitespace-nowrap">
-                    <?= $item ?>
+                    <?= $item ?> PP
                   </h3>
-                  <p class="text-sm opacity-80 my-2 !line-clamp-3">Reservasi tiket <strong><?= $item ?></strong> pp dengan sistem door to door dan perjalanan via tol.</p>
+                  <p class="text-sm opacity-80 my-2 !line-clamp-3">Reservasi tiket <strong><?= $item ?></strong> PP dengan sistem door to door dan perjalanan via tol.</p>
                   <a target="_blank" href="<?= $link_whatsapp ?>" class="bg-primary hover:!bg-primary-hover text-slate-100 block text-center text-sm mt-3 rounded p-2 relative">Pesan Travel</a>
                 </div>
               </div>
