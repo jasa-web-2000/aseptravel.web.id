@@ -1,20 +1,19 @@
 <?php
 
-// $domain = 'http://192.168.1.4/bandhawatravel.web.id/';
-$domain = 'https://bandhawatravel.web.id/';
-$brand = 'Bandhawa travel';
+$domain = 'http://192.168.1.7/aseptravel.web.id/';
+// $domain = 'https://aseptravel.web.id/';
+$brand = 'Asep Travel Cianjur - Jabodetabek';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.png';
 $logoPanjang = 'src/img/logo.png';
-$title = $brand . " Rute Cianjur, Sukabumi, Jabodetabek & Bandara";
-$desc = $brand . " adalah layanan jasa transportasi travel terbaik yang melayani rute Cianjur, Sukabumi, Jabodetabek & Bandara dengan sistem door to door. Pesan sekarang untuk pengalaman perjalanan yang nyaman dan aman.";
-$telp = '0822-9814-3930';
+$title = $brand . " menawarkan Travel Cianjur Jabodetabek";
+$desc = $brand . " akan membantu anda melakukan perjalanan dengan rute travel Cianjur - Jakartam, Bogor, Depok, Tangerang, Bekasi, dan Bandara. ";
+$telp = '0821-2136-8710';
 // $telp2 = '0857-9190-4615';
-$alamat = 'Perumahan Bumi Tirta Nirwana, Blok L3 No. 6, Gekbrong, Kabupaten Cianjur, Jawa Barat';
+$alamat = '443F+G7W, Jl. Raya Cibeber, Peuteuycondong, Kec. Cibeber, Kabupaten Cianjur, Jawa Barat 43262';
 
 
-$iframe = 'https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3961.290862472142!2d107.02608357499594!3d-6.855698593142713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNsKwNTEnMjAuNSJTIDEwN8KwMDEnNDMuMiJF!5e0!3m2!1sen!2sid!4v1766645189945!5m2!1sen!2sid';
-
+$iframe = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.9537251314223!2d107.1232086!3d-6.8961386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e685119b51ad1b9%3A0x9ed5f3f91a259379!2sPHOTOCOPY%20%26%20PRINT%20Sadamaya!5e0!3m2!1sid!2sid!4v1767440887252!5m2!1sid!2sid';
 
 function res_telp($telp)
 {
