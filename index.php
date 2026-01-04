@@ -2,7 +2,7 @@
 
 // $domain = 'http://192.168.1.7/aseptravel.web.id/';
 $domain = 'https://aseptravel.web.id/';
-$brand = 'Asep Travel Cianjur - Jabodetabek (PP)';
+$brand = 'Asep Travel Cianjur Jakarta - Jabodetabek (PP)';
 // $logoShared = 'src/img/harga-travel.jpg';
 $logo = 'src/img/logo.png';
 $logoPanjang = 'src/img/logo.png';
